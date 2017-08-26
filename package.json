@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Command line utility to minimize the long commands to short commands ",
   "main": "index.js",
+  "bin":{
+    "sh": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
