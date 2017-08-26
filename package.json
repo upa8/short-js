@@ -4,7 +4,7 @@
   "description": "Command line utility to minimize the long commands to short commands ",
   "main": "index.js",
   "bin": {
-    "sh": "./index.js"
+    "s": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
