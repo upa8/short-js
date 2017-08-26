@@ -1,5 +1,5 @@
 {
-  "name": "shortcutjs",
+  "name": "shortjs",
   "version": "0.0.1",
   "description": "Command line utility to minimize the long commands to short commands ",
   "main": "index.js",
