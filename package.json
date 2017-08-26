@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Command line utility to minimize the long commands to short commands ",
   "main": "index.js",
-  "bin":{
+  "bin": {
     "sh": "./index.js"
   },
   "scripts": {
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/upa8/Shortcut-js/issues"
   },
-  "homepage": "https://github.com/upa8/Shortcut-js#readme"
+  "homepage": "https://github.com/upa8/Shortcut-js#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "jsonfile": "^3.0.1"
+  }
 }
