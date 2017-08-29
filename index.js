@@ -9,9 +9,10 @@ const file = `${process.cwd()}/package.json`;
 
 if (process.argv[2] != null) {
   jsonfile.readFile(file, (err, obj) => {
-    if (obj.shortcutjs[process.argv[2]] != null) {
-      const command = obj.shortcutjs[process.argv[2]];
+    if (obj.shortjs[process.argv[2]] != null) {
+      const command = obj.shortjs[process.argv[2]];
 
+      console.log(`Executing ${command}`);
       exec(command,
         (error, stdout, stderr) => {
           console.log(`${stdout}`);
