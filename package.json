@@ -36,5 +36,9 @@
     "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "^11.3.2",
     "eslint-plugin-import": "^2.7.0"
+  },
+  "engines": {
+    "node": ">= 8.9.1",
+    "npm": ">= 5.5.1"
   }
 }
